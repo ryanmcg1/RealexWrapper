@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealexPayments", "RealAuth\RealexPayments.csproj", "{769F0DE1-2C2C-463F-8002-0DAF5EA962A4}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Demo", "http://localhost:6191", "{F6BC4CED-3BD4-4875-B1A1-680A84035C9F}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{769f0de1-2c2c-463f-8002-0daf5ea962a4}|RealexPayments.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6191"
+		Debug.AspNetCompiler.PhysicalPath = "Demo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6191\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6191"
+		Release.AspNetCompiler.PhysicalPath = "Demo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6191\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Demo\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/eg
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = http://localhost:6191
+		SccProjectName1 = Demo
+		SccLocalPath1 = Demo
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = RealAuth\\RealexPayments.csproj
+		SccProjectName2 = RealAuth
+		SccLocalPath2 = RealAuth
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{769F0DE1-2C2C-463F-8002-0DAF5EA962A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769F0DE1-2C2C-463F-8002-0DAF5EA962A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769F0DE1-2C2C-463F-8002-0DAF5EA962A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769F0DE1-2C2C-463F-8002-0DAF5EA962A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BC4CED-3BD4-4875-B1A1-680A84035C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BC4CED-3BD4-4875-B1A1-680A84035C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BC4CED-3BD4-4875-B1A1-680A84035C9F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BC4CED-3BD4-4875-B1A1-680A84035C9F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
